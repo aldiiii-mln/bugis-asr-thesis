@@ -1,0 +1,23 @@
+# Core ML / ASR
+torch>=2.1
+transformers>=4.40
+datasets>=2.18
+accelerate>=0.28
+evaluate
+
+# Audio
+librosa
+soundfile
+jiwer          # WER/CER computation
+
+# MMS-specific
+# (MMS adapter fine-tuning uses transformers' Wav2Vec2 classes directly)
+
+# Stats / evaluation
+numpy
+pandas
+scipy          # bootstrap CI
+
+# Utilities
+tqdm
+pyyaml
