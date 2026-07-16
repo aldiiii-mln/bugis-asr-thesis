@@ -8,10 +8,10 @@ import csv
 import re
 from pathlib import Path
 
-# ---- EDIT BAGIAN INI ----
+
 INPUT_PATH = "/content/sampel_201_final.csv"   # CSV (paragraph_id,text) ATAU .txt (1 paragraf per baris)
 OUTPUT_PATH = "/content/sentences_for_tts.csv"
-# --------------------------
+
 
 
 KNOWN_ABBREVIATIONS = {

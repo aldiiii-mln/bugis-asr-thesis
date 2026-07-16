@@ -5,11 +5,11 @@
 import csv
 from pathlib import Path
 
-# ---- EDIT BAGIAN INI ----
+
 MASTER_CSV = "/content/sampel_201_final.csv"          # file 201 paragraf asli
 OUTPUT_CSV = "/content/sampel_201_final_fixed.csv"     # hasil setelah ditambal
 
-# Isi manual: source_index (dari sentences_for_tts_no_punctuation.csv) -> teks yang sudah diperbaiki
+# source_index (dari sentences_for_tts_no_punctuation.csv) -> teks yang sudah diperbaiki
 FIXES = {
     "13763": "Kuburu tuhan Yesus Kristus sedang dibukka. Untu' pertamakalinya eddi mancaji di Yerusalem ketika mereka meluncurkan marmer kuburu tuhan Yesus. Saddang sangkakala diangkalinga na ellung mabbentu lingkaran. Puji tuhan, fenomena yang dena naulle dijelaskang ancaji esso eddu di Israel, like pelik tafi tuju.",
     "16655": "Maladde upaya saling masserang na saling bela keddi mancaji gejala laleng masyarakat Indonesia. Habib Rizieq Syihab ero yang dihenni napimping demo aksi bela Islam, cappu nasaba nabela Al Quran furanna diduga dihinakan pole Ahok. Kin sisumbe elo rifigau aksi bela Yesus, absus furanna ero diaseng mappigau nakkeddai kepada dogma ajaran Kristen okko Desember labe.",

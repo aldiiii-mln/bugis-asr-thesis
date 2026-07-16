@@ -5,12 +5,11 @@
 import csv
 from pathlib import Path
 
-# ---- EDIT BAGIAN INI ----
+
 INPUT_CSV = "/content/sentences_for_tts.csv"
 OUTPUT_CSV = "/content/sentences_for_tts_cleaned.csv"
 
-# Isi (paragraph_id, sentence_index) yang mau dihapus — kombinasi keduanya
-# harus persis match, jadi aman meski ada teks yang kebetulan mirip.
+# (paragraph_id, sentence_index) yang mau dihapus — kombinasi keduanya
 TO_REMOVE = {
     ("paragraph_029", "3"),   # "Amin"
     ("paragraph_062", "2"),   # "^ Holweck, Frederick." -- sitasi Wikipedia
