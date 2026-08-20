@@ -1,0 +1,34 @@
+{
+  "wer": {
+    "point_estimate": 0.7212947189097104,
+    "ci_lower": 0.6961195417948854,
+    "ci_upper": 0.7484902425942325,
+    "ci_level": 0.95,
+    "n_bootstrap": 1000,
+    "n_samples": 106,
+    "n_groups": 40,
+    "grouped": true,
+    "zero_shot_baseline": {
+      "point_estimate": 0.857,
+      "ci_lower": 0.839,
+      "ci_upper": 0.876
+    },
+    "ci_overlap_with_zero_shot": false
+  },
+  "cer": {
+    "point_estimate": 0.19601053452984785,
+    "ci_lower": 0.18653450167905003,
+    "ci_upper": 0.20666863796080126,
+    "ci_level": 0.95,
+    "n_bootstrap": 1000,
+    "n_samples": 106,
+    "n_groups": 40,
+    "grouped": true,
+    "zero_shot_baseline": {
+      "point_estimate": 0.195,
+      "ci_lower": 0.187,
+      "ci_upper": 0.204
+    },
+    "ci_overlap_with_zero_shot": true
+  }
+}
